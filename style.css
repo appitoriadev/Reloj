@@ -1,0 +1,67 @@
+
+body{
+    margin: 1;
+}
+
+.clock{
+    margin-top: 0;
+    background-image: url("https://cssanimation.rocks/images/posts/clocks/ios_clock.svg");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    transform: translate(80%);
+}
+
+.point{
+    width: 15px;
+    height: 15px;
+    border: 1px;
+    background-color: black;
+    border-radius: 50px;
+    transform: translate(238px,240px);
+    position: relative;
+    z-index: 100000;
+}
+
+.second{
+    background-color: red;
+    position: relative;
+    width: 0.2%;
+    height: 38%;
+    top: 8%;
+    left: 49%;
+    z-index: 0;
+    transform-origin: bottom;
+    animation: girar 60s infinite steps(60);
+    z-index: 2;
+}
+
+.minute{
+    background-color: blue;
+    position: relative;
+    width: 1%;
+    height: 34%;
+    bottom: 26%;
+    left: 48.5%;
+    transform-origin: bottom;
+    animation: girar 3600s infinite steps(60);
+    z-index: 3;
+}
+
+.hour{
+    background-color: green;
+    position: relative;
+    width: 1.5%;
+    height: 15%;
+    bottom: 40.5%;
+    left: 48.3%;
+    transform-origin: bottom;
+    animation: girar 43200 infinite steps(12);
+    z-index: 4;
+}
+
+@keyframes girar {
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
