@@ -16,7 +16,7 @@ body{
     width: 15px;
     height: 15px;
     border: 1px;
-    background-color: black;
+    background-color: red;
     border-radius: 50px;
     transform: translate(238px,240px);
     position: relative;
@@ -37,7 +37,7 @@ body{
 }
 
 .minute{
-    background-color: blue;
+    background-color: red;
     position: relative;
     width: 1%;
     height: 34%;
@@ -49,7 +49,7 @@ body{
 }
 
 .hour{
-    background-color: green;
+    background-color: red;
     position: relative;
     width: 1.5%;
     height: 15%;
