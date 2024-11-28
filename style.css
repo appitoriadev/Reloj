@@ -52,8 +52,8 @@ body{
     background-color: red;
     position: relative;
     width: 1.5%;
-    height: 15%;
-    bottom: 40.5%;
+    height: 20%;
+    bottom: 45%;
     left: 48.3%;
     transform-origin: bottom;
     animation: girar 43200 infinite steps(12);
